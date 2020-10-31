@@ -8,8 +8,8 @@
 
     <ListView
         android:id="@+id/lvConversation"
-        android:layout_width="391dp"
-        android:layout_height="436dp"
+        android:layout_width="370dp"
+        android:layout_height="355dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.506"
@@ -21,17 +21,16 @@
         android:id="@+id/etMsg"
         android:layout_width="278dp"
         android:layout_height="52dp"
-        android:layout_marginBottom="128dp"
         android:autofillHints=""
         android:ems="10"
         android:hint="Type Your Msg here!"
         android:inputType="textPersonName"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.136"
+        app:layout_constraintHorizontal_bias="0.103"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/lvConversation"
-        app:layout_constraintVertical_bias="0.122" />
+        app:layout_constraintVertical_bias="0.067" />
 
     <Button
         android:id="@+id/btnSendMsg"
