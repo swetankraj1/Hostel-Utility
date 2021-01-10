@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#EDDDAC"
+    tools:context=".ContactActivity">
+
+   <TableLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginVertical="50dp"
+       android:layout_marginHorizontal="10dp">
+
+       <TableRow>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Name"
+               android:background="#EC0606"
+               android:textSize="28sp"
+               android:textStyle="bold"
+               android:layout_weight="1"
+               android:gravity="center"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Designation"
+               android:background="#EC0606"
+               android:textSize="25sp"
+               android:textStyle="bold"
+               android:layout_weight="1"
+               android:gravity="center"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Mob no."
+               android:background="#EC0606"
+               android:textSize="28sp"
+               android:textStyle="bold"
+               android:layout_weight="1"
+               android:gravity="center"/>
+       </TableRow>
+
+       <TableRow>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Sudhir Dubey"
+               android:background="#F47C7C"
+               android:textSize="25sp"
+               android:textStyle="italic"
+               android:layout_weight="1"
+               android:gravity="center"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Warden"
+               android:background="#F47C7C"
+               android:textSize="25sp"
+               android:textStyle="italic"
+               android:layout_weight="1"
+               android:gravity="center"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="9876876887"
+               android:background="#F47C7C"
+               android:textSize="25sp"
+               android:textStyle="italic"
+               android:layout_weight="1"
+               android:gravity="center"/>
+       </TableRow>
+
+       <TableRow>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Anmol Kadam"
+               android:background="#DFB9B9"
+               android:textSize="25sp"
+               android:textStyle="italic"
+               android:layout_weight="1"
+               android:gravity="center"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Warden 2"
+               android:background="#DFB9B9"
+               android:textSize="25sp"
+               android:textStyle="italic"
+               android:layout_weight="1"
+               android:gravity="center"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="9812346571"
+               android:background="#DFB9B9"
+               android:textSize="25sp"
+               android:textStyle="italic"
+               android:layout_weight="1"
+               android:gravity="center"/>
+       </TableRow>
+
+       <TableRow>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Sandesh Shinde"
+               android:background="#F47C7C"
+               android:textSize="25sp"
+               android:textStyle="italic"
+               android:layout_weight="1"
+               android:gravity="center"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Warden 3"
+               android:background="#F47C7C"
+               android:textSize="25sp"
+               android:textStyle="italic"
+               android:layout_weight="1"
+               android:gravity="center"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="8720175829"
+               android:background="#F47C7C"
+               android:textSize="25sp"
+               android:textStyle="italic"
+               android:layout_weight="1"
+               android:gravity="center"/>
+       </TableRow>
+
+       <TableRow>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Bhagat Kumar"
+               android:background="#DFB9B9"
+               android:textSize="25sp"
+               android:textStyle="italic"
+               android:layout_weight="1"
+               android:gravity="center"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Security"
+               android:background="#DFB9B9"
+               android:textSize="25sp"
+               android:textStyle="italic"
+               android:layout_weight="1"
+               android:gravity="center"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="8729814318"
+               android:background="#DFB9B9"
+               android:textSize="25sp"
+               android:textStyle="italic"
+               android:layout_weight="1"
+               android:gravity="center"/>
+       </TableRow>
+
+       <TableRow>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Rahul   Aryan"
+               android:background="#F47C7C"
+               android:textSize="25sp"
+               android:textStyle="italic"
+               android:layout_weight="1"
+               android:gravity="center"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Security 2"
+               android:background="#F47C7C"
+               android:textSize="25sp"
+               android:textStyle="italic"
+               android:layout_weight="1"
+               android:gravity="center"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="9876876887"
+               android:background="#F47C7C"
+               android:textSize="25sp"
+               android:textStyle="italic"
+               android:layout_weight="1"
+               android:gravity="center"/>
+       </TableRow>
+
+       <TableRow>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Rakesh Suman"
+               android:background="#DFB9B9"
+               android:textSize="25sp"
+               android:textStyle="italic"
+               android:layout_weight="1"
+               android:gravity="center"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Kitchen Staff"
+               android:background="#DFB9B9"
+               android:textSize="25sp"
+               android:textStyle="italic"
+               android:layout_weight="1"
+               android:gravity="center"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="9816252423"
+               android:background="#DFB9B9"
+               android:textSize="25sp"
+               android:textStyle="italic"
+               android:layout_weight="1"
+               android:gravity="center"/>
+       </TableRow>
+       <TableRow>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Sudhir Dubey"
+               android:background="#F47C7C"
+               android:textSize="25sp"
+               android:textStyle="italic"
+               android:layout_weight="1"
+               android:gravity="center"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Warden"
+               android:background="#F47C7C"
+               android:textSize="25sp"
+               android:textStyle="italic"
+               android:layout_weight="1"
+               android:gravity="center"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="9876876887"
+               android:background="#F47C7C"
+               android:textSize="25sp"
+               android:textStyle="italic"
+               android:layout_weight="1"
+               android:gravity="center"/>
+       </TableRow>
+
+       <TableRow>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Anup K Kadam"
+               android:background="#DFB9B9"
+               android:textSize="25sp"
+               android:textStyle="italic"
+               android:layout_weight="1"
+               android:gravity="center"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Kitchen staff 3"
+               android:background="#DFB9B9"
+               android:textSize="25sp"
+               android:textStyle="italic"
+               android:layout_weight="1"
+               android:gravity="center"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="7859934763"
+               android:background="#DFB9B9"
+               android:textSize="25sp"
+               android:textStyle="italic"
+               android:layout_weight="1"
+               android:gravity="center"/>
+       </TableRow>
+
+
+
+   </TableLayout>
+</LinearLayout>
